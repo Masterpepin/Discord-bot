@@ -11,11 +11,11 @@ const levelSchema = new Schema({
   },
   xp: {
     type: Number,
-    default: 0,
+    default: 100,
   },
   level: {
     type: Number,
-    default: 0,
+    default: 1,
   },
 });
 
