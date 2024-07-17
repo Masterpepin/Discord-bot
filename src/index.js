@@ -10,7 +10,7 @@ const client = new Client({
         IntentsBitField.Flags.GuildMessages,
         IntentsBitField.Flags.GuildPresences,
         IntentsBitField.Flags.MessageContent,
-    ],
+    ]
 });
 
 (async () => {
@@ -99,10 +99,6 @@ client.on('interactionCreate', (interaction) => {
     } 
     if (interaction.commandName === 'hola') {
         interaction.reply('HOLAAAAAA');
-    }
-
-    if (interaction.commandName === 'ping') {
-        interaction.reply('Pong!');
     }
 });
 

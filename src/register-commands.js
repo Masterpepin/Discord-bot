@@ -25,13 +25,9 @@ const commands = [
         description: 'Sends an embed!',
     },
     {
-        name: 'ping',
-        description: 'Pong!',
-    },
-    {
         name: 'hola',
         description: 'Says hello to you!',
-    },
+    }
 ];
 
 const rest = new REST ({version: '10'}).setToken(process.env.TOKEN);
